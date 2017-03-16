@@ -1,8 +1,6 @@
-# Food Coach sample application [![Build Status](https://travis-ci.org/watson-developer-cloud/retail-recommender.svg?branch=master)](https://travis-ci.org/watson-developer-cloud/retail-recommender)
+# Retail Recommender Conversation sample application [![Build Status](https://travis-ci.org/watson-developer-cloud/retail-recommender.svg?branch=master)](https://travis-ci.org/watson-developer-cloud/retail-recommender)
 
-This application demonstrates how the Conversation Service can be adapted to use Tone Analyzer's tone along with intents and entities in a simple chat interface.
-
-![Demo GIF](readme_images/demo.gif?raw=true)
+This application demonstrates how the Conversation Service can be adapted to use Tone Analyzer's tone along with intents and entities in a simple chat interface. The app integrates with an instance of Watson Conversation trained for a retail scenario.
 
 Demo: http://retail-recommender.mybluemix.net/
 
@@ -23,7 +21,7 @@ If you want to experiment with the application or use it as a basis for building
 
 ## Getting the files
 
-1. Download the food coach application code to your computer. You can do this in either of the following ways:
+1. Download the retail recommender application code to your computer. You can do this in either of the following ways:
 
    * [Download the .zip file](https://github.com/watson-developer-cloud/retail-recommender/archive/master.zip) of the GitHub repository and extract the files to a local directory, OR
 
@@ -104,7 +102,7 @@ If you want to experiment with the application or use it as a basis for building
 
    The Conversation service tool opens.
 
-1. Click **Import** to add the food coach workspace. When prompted, specify the location of the workspace JSON file in your local copy of the application project:
+1. Click **Import** to add the retail recommender workspace. When prompted, specify the location of the workspace JSON file in your local copy of the application project:
 
    `<project_root>/retail-recommender/training/retail-recommender-workspace.json`
 

@@ -1,0 +1,92 @@
+Amenities, 3D, 3-d, VR
+Amenities, IMAX
+Amenities, FoodBeverage, food, dinner, drinks, restaurant, fast food, in-theater dining
+Amenities, Concessions, pop corn, popcorn, soda, drinks, beer, hot dog, chips, candies
+MovieGenre, Action 
+MovieGenre, Adult 
+MovieGenre, Adventure
+MovieGenre, Animation, cartoon
+MovieGenre, Avant-garde
+MovieGenre, Experimental 
+MovieGenre, Children’s, kids
+MovieGenre, Family 
+MovieGenre, Comedy
+MovieGenre, Crime 
+MovieGenre, Drama 
+MovieGenre, Epic 
+MovieGenre, Fantasy 
+MovieGenre, Historical Film, historical
+MovieGenre, Horror 
+MovieGenre, Musical 
+MovieGenre, Mystery 
+MovieGenre, Romance, romantic, love
+MovieGenre, Sci-Fi, sci fi 
+MovieGenre, Spy Film 
+MovieGenre, Thriller 
+MovieGenre, War 
+MovieGenre, Western 
+MovieGenre, Bollywood, Hindi
+MovieGenre, Tamil
+MovieGenre, Telugu
+TicketsDiscounts, Military Discount, discount for veteran, veteran discount
+TicketsDiscounts, Student Discount, discount for students, student discount
+TicketsDiscounts, Purchase Method, counter, box-office, box office, online, fandango, mobile ticket, kiosk
+TicketsDiscounts, Senior Citizen Discount, senior discount, discount for senior
+TicketsDiscounts, Group Discount, bulk purchase discount, grp discount
+City, Ajmer
+City, Amritsar
+City, Anand
+City, Aurangabad
+City, Belagavi, belagaum
+City, Bengaluru, Bangalore
+City, Bharuch
+City, Bhilwara
+City, Bhiwadi
+City, Bhopal
+City, Bhubaneshwar
+City, Burdwan
+City, Chandigarh
+City, Chennai, Madras
+City, Coimbatore
+City, Darjeeling
+City, Delhi, New Delhi
+City, Dhanbad
+City, Faridabad
+City, Gandhinagar
+City, Goa
+City, Gurugram, gurgaon
+City, Howrah 
+City, Hyderabad 
+City, Indore 
+City, Jaipur 
+City, Jalgaon 
+City, Jamnagar 
+City, Jodhpur 
+City, Jorhat 
+City, Kanpur 
+City, Kolkata 
+City, Kota 
+City, Kurnool 
+City, Lucknow 
+City, Madurai 
+City, Manipal 
+City, Meerut 
+City, Mumbai 
+City, Mysuru, mysore
+City, Nagpur 
+City, Nashik 
+City, National capital region, ncr
+City, Noida 
+City, Pune 
+City, Raipur 
+City, Rajkot 
+City, Rohtak 
+City, Siliguri 
+City, Surat 
+City, Thrissur 
+City, Udaipur 
+City, Vadodara 
+City, Vijayawada 
+City, Vizag 
+City, Vizianagaram
+Purchase, Buy Tickets, buy movie tickets, purchase ticket, buy a ticket, make a reservation, book tickets, buy tickets
