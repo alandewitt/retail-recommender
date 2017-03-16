@@ -86,7 +86,6 @@ app.post('/api/message', function(req, res) {
       payload.context = toneDetection.initUser();
     }
 
-
     // Invoke the tone-aware call to the Conversation Service
     invokeToneConversation(payload, res);
   }
@@ -113,6 +112,13 @@ function updateMessage(input, response) {
       id = uuid.v4();
       logs.insert({'_id': id, 'request': input, 'response': response, 'time': new Date()});
     }
+
+    // let's check if the intent is MOVIE_RECOMMENDATION and if so call out to Watson ML
+    if (response.intents[0].intent === "MOVIE_RECOMMENDATION") {
+      console.log("Going to call Watson ML");
+      invokeWatsonML();
+    }
+
     return response;
   }
 
@@ -136,7 +142,9 @@ function updateMessage(input, response) {
       responseText = 'I did not understand your intent';
     }
   }
+
   response.output.text = responseText;
+
   if (logs) {
     // If the logs db is set, then we want to record all input and responses
     id = uuid.v4();
@@ -163,8 +171,10 @@ function updateMessage(input, response) {
 function invokeToneConversation(payload, res) {
   toneDetection.invokeToneAsync(payload, toneAnalyzer).then(function(tone) {
     toneDetection.updateUserTone(payload, tone, maintainToneHistory);
+
     conversation.message(payload, function(err, data) {
       var returnObject = null;
+      var payloadN = {};
       if (err) {
         console.error(JSON.stringify(err, null, 2));
         returnObject = res.status(err.code || 500).json(err);
@@ -177,6 +187,29 @@ function invokeToneConversation(payload, res) {
     console.log(JSON.stringify(err, null, 2));
   });
 }
+
+
+/**
+ * @author Swami Chandrasekaran
+ * @returns {Object} return response from conversation service
+ *          invokeToneConversation calls the invokeToneAsync function to get the
+ *          tone information for the user's input text (input.text in the
+ *          payload json object), adds/updates the user's tone in the payload's
+ *          context, and sends the payload to the conversation service to get a
+ *          response which is printed to screen.
+ * @param {Json}
+ *                payload a json object containing the basic information needed
+ *                to converse with the Conversation Service's message endpoint.
+ * @param {Object}
+ *                res response object
+ *
+ */
+function invokeWatsonML() {
+    console.log("I'm inside WatsonML Function");
+
+    return "Thanks";
+  }
+
 
 /**
  * Enable logging Must add an instance of the Cloudant NoSQL DB to the

@@ -12,11 +12,11 @@ deploy:
   api: https://api.ng.bluemix.net
   username: $CF_USERNAME
   password: $CF_PASSWORD
-  name: food-coach
+  name: retail-recommender
   organization: WatsonPlatformServices
   space: appgallery
   on:
-    repo: watson-developer-cloud/food-coach
+    repo: watson-developer-cloud/retail-recommender
     branch: master
 before_install:
 - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] &&  openssl aes-256-cbc -K $encrypted_373eea20a8e7_key -iv $encrypted_373eea20a8e7_iv -in .env.enc -out .env -d  || true'

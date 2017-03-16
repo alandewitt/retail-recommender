@@ -1,10 +1,10 @@
-# Food Coach sample application [![Build Status](https://travis-ci.org/watson-developer-cloud/food-coach.svg?branch=master)](https://travis-ci.org/watson-developer-cloud/food-coach)
+# Food Coach sample application [![Build Status](https://travis-ci.org/watson-developer-cloud/retail-recommender.svg?branch=master)](https://travis-ci.org/watson-developer-cloud/retail-recommender)
 
 This application demonstrates how the Conversation Service can be adapted to use Tone Analyzer's tone along with intents and entities in a simple chat interface.
 
 ![Demo GIF](readme_images/demo.gif?raw=true)
 
-Demo: http://food-coach.mybluemix.net/
+Demo: http://retail-recommender.mybluemix.net/
 
 For more information on the Conversation Service, see the [detailed documentation](http://www.ibm.com/watson/developercloud/doc/conversation/overview.shtml).
 For more information on the Tone Analyzer Service, see the [detailed documentation](http://www.ibm.com/watson/developercloud/tone-analyzer.html).
@@ -25,7 +25,7 @@ If you want to experiment with the application or use it as a basis for building
 
 1. Download the food coach application code to your computer. You can do this in either of the following ways:
 
-   * [Download the .zip file](https://github.com/watson-developer-cloud/food-coach/archive/master.zip) of the GitHub repository and extract the files to a local directory, OR
+   * [Download the .zip file](https://github.com/watson-developer-cloud/retail-recommender/archive/master.zip) of the GitHub repository and extract the files to a local directory, OR
 
    * Use GitHub to clone the repository locally
 
@@ -46,7 +46,7 @@ If you want to experiment with the application or use it as a basis for building
    For example:
 
    ```bash
-   cf create-service conversation free conversation-food-coach
+   cf create-service conversation free conversation-retail-recommender
    ```
 
 1. Create a service key:
@@ -58,7 +58,7 @@ If you want to experiment with the application or use it as a basis for building
    For example:
 
    ```bash
-   cf create-service-key conversation-food-coach conversation-food-coach-key
+   cf create-service-key conversation-retail-recommender conversation-retail-recommender-key
    ```
 
 ## Setting up the Tone Analyzer service
@@ -73,7 +73,7 @@ If you want to experiment with the application or use it as a basis for building
    For example:
 
    ```bash
-   cf create-service tone_analyzer standard tone-analyzer-food-coach
+   cf create-service tone_analyzer standard tone-analyzer-retail-recommender
    ```
 
 1. Create a service key:
@@ -85,7 +85,7 @@ If you want to experiment with the application or use it as a basis for building
    For example:
 
    ```bash
-   cf create-service-key tone-analyzer-food-coach tone-analyzer-food-coach-key
+   cf create-service-key tone-analyzer-retail-recommender tone-analyzer-retail-recommender-key
    ```
 
 ### Importing the Conversation workspace
@@ -106,14 +106,14 @@ If you want to experiment with the application or use it as a basis for building
 
 1. Click **Import** to add the food coach workspace. When prompted, specify the location of the workspace JSON file in your local copy of the application project:
 
-   `<project_root>/food-coach/training/food-coach-workspace.json`
+   `<project_root>/retail-recommender/training/retail-recommender-workspace.json`
 
 1. Select **Everything (Intents, Entities, and Dialog)** and then click **Import**. The food coach workspace is created.
    * If you have any problems uploading the workspace using Chrome, please try another browser such as Firefox or Safari.
 
 ## Configuring the application environment
 
-1. At the command line, navigate to the local project directory (`<project_root>/food-coach`).
+1. At the command line, navigate to the local project directory (`<project_root>/retail-recommender`).
 
 1. Copy the `.env.example` file to a new `.env` file. Open this file in a text editor.
 
@@ -130,7 +130,7 @@ If you want to experiment with the application or use it as a basis for building
    For example:
 
    ```bash
-   cf service-key conversation-food-coach conversation-food-coach-key
+   cf service-key conversation-retail-recommender conversation-retail-recommender-key
    ```
 
    The output from this command is a JSON object, as in this example:
@@ -206,21 +206,21 @@ If you want to subsequently deploy your local version of the application to the 
    ```YAML
    ---
    declared-services:
-     conversation-food-coach:
+     conversation-retail-recommender:
        label: conversation
        plan: free
-     tone-analyzer-food-coach:
+     tone-analyzer-retail-recommender:
        label: tone_analyzer
        plan: standard
    applications:
-   - name: conversation-food-coach-demo
+   - name: conversation-retail-recommender-demo
      command: npm start
      path: .
      memory: 256M
      instances: 1
      services:
-     - conversation-food-coach
-     - tone-analyzer-food-coach
+     - conversation-retail-recommender
+     - tone-analyzer-retail-recommender
      env:
        NPM_CONFIG_PRODUCTION: false
        WORKSPACE_ID: fdeab5e4-0ebe-4183-8d10-6e5557a6d842

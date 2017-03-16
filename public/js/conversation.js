@@ -26,7 +26,7 @@ var ConversationPanel = (function() {
   /**
    * getMealType determines what meal a user of the app might have eaten most
    * recently. It uses the client's browser time.
-   * 
+   *
    * @returns {string} a string indicating the meal the user most likely ate
    *          recently - breakfast, lunch, dinner
    */
