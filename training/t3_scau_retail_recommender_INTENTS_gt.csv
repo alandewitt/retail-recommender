@@ -1,0 +1,101 @@
+"What is Select Guest?", LOYALTY_PROGRAM
+"How can I join?", LOYALTY_PROGRAM
+"Does it cost anything to become a Select Guest member?", LOYALTY_PROGRAM
+"What are the different levels and benefits at each membership level?", LOYALTY_PROGRAM
+"How do I know if I qualify for the next tier level?", LOYALTY_PROGRAM
+"When do I receive a membership card?", LOYALTY_PROGRAM
+"How can I view my account summary?", LOYALTY_PROGRAM
+"How do I earn a free movie night?", LOYALTY_PROGRAM
+"Do I have to make free movie night rewards reservations in advance?", LOYALTY_PROGRAM
+"What costs are covered by a free movie night Certificate?", LOYALTY_PROGRAM
+"How do I redeem my free movie night Certificates?", LOYALTY_PROGRAM
+"What is Super Movie Complex Loyalty Club?", LOYALTY_PROGRAM
+"Is joining Super Movie Complex Club free?", LOYALTY_PROGRAM
+"What is Registration and what are the benefits?", LOYALTY_PROGRAM
+"How do I accumulate credits on my Super Movie Complex Club card?", LOYALTY_PROGRAM
+"Where do I redeem my credits?", LOYALTY_PROGRAM
+"Do I need a physical card to redeem rewards that are loaded on my card (like popcorn and drinks)?", LOYALTY_PROGRAM
+"How can I receive coupons and special offers?", LOYALTY_PROGRAM
+"Will my Super Movie Complex Club card work at all your theatres?", LOYALTY_PROGRAM
+"Do my credits have an expiration date?", LOYALTY_PROGRAM
+"Do my earned rewards expire?", LOYALTY_PROGRAM
+"Can I give my Super Movie Complex Club credits to someone else?", LOYALTY_PROGRAM
+"Can I get a duplicate Super Movie Complex Club loyalty card for a family member or friend?", LOYALTY_PROGRAM
+"Can I upsize a free concession item?", LOYALTY_PROGRAM
+"Do I receive credits when making ticket purchases from in-theatre kiosks?", LOYALTY_PROGRAM
+"Do I receive credits when making ticket purchases online?", LOYALTY_PROGRAM
+"What to do if I forgot my card or did not receive credits?", LOYALTY_PROGRAM
+"Will my membership ever become deactivated?", LOYALTY_PROGRAM
+"Are you showing Tamil movies?", MOVIES_PLAYING
+"What are the regional language movies playing?", MOVIES_PLAYING
+"What movies are coming soon to SMC?", MOVIES_PLAYING
+"What movies are playing right now at SMC?", MOVIES_PLAYING
+"What movies are playing right now at Super Movies?", MOVIES_PLAYING
+"Where can I find MPAA movie ratings information?", MOVIES_PLAYING
+"I would like to take my spouse to a nice romantic movie. What are my options?", MOVIES_PLAYING
+"Which hollywood movies are playing?", MOVIES_PLAYING
+"Which kids movies are being shown now?", MOVIES_PLAYING
+"Which movies are playing?", MOVIES_PLAYING
+"You have any movies for kids?", MOVIES_PLAYING
+"Any foreign language movies playing?", MOVIES_PLAYING
+"Any Oscar winning movies currently playing?", MOVIES_PLAYING
+"How do I know what movies are playing?", MOVIES_PLAYING
+"How do I see what is playing in your theatres?", MOVIES_PLAYING
+"When do you know what you're playing next?", MOVIES_PLAYING
+"Where is the thater located?", THEATER_LOCATION_INFO
+"Do you serve alcohol?", THEATER_LOCATION_INFO
+"Are there any deals on concessions?", THEATER_LOCATION_INFO
+"Can I get nutritional information on your concessions?", THEATER_LOCATION_INFO
+"How do I book a meeting at an ACME theatre?", THEATER_LOCATION_INFO
+"How do I book a meeting that includes a private showing at your theatre?", THEATER_LOCATION_INFO
+"Where can I find an ACME theatre?", THEATER_LOCATION_INFO
+"Where can I find showtimes for my local ACME Theatre?", THEATER_LOCATION_INFO
+"What time does the theatre location open?", THEATER_LOCATION_INFO
+"Do you offer in-theatre dining options? ", THEATER_LOCATION_INFO
+"What are the attractions around the theater?", THEATER_LOCATION_INFO
+"Do you serve dinner at your location?", THEATER_LOCATION_INFO
+"Can I do a dinner and movie date?", THEATER_LOCATION_INFO
+"How does in theatre dining work?", THEATER_LOCATION_INFO
+"Where are you located?", THEATER_LOCATION_INFO
+"Where can I park?", THEATER_LOCATION_INFO
+"Can you recommend a movie for me to watch?", MOVIE_RECOMMENDATION
+"Girls night out movie", MOVIE_RECOMMENDATION
+"Impress me with a movie choice for tonight", MOVIE_RECOMMENDATION
+"Recommend a movie that I really do want to see.", MOVIE_RECOMMENDATION
+"What are some good movies that I can watch today?", MOVIE_RECOMMENDATION
+"What are some good movies that I can watch today?", MOVIE_RECOMMENDATION
+"Where can I get personalized recommendations?", MOVIE_RECOMMENDATION
+"Going on a first date. What do you suggest?", MOVIE_RECOMMENDATION
+"Old friends meeting. What is a good movie?", MOVIE_RECOMMENDATION
+"I like to see a feel good movie. Can you recommend? ", MOVIE_RECOMMENDATION
+"Suggest me movie", MOVIE_RECOMMENDATION
+"What do u suggest?", MOVIE_RECOMMENDATION
+"Can buy a ticket online?", TICKETS_PASSES
+"Can I buy tickets online with a gift card?", TICKETS_PASSES
+"do you accept credit card when buying tickets?", TICKETS_PASSES
+"Do you provide a senior discount?", TICKETS_PASSES
+"What are the age groups for a Child and Senior tickets?", TICKETS_PASSES
+"What are the ticket prices?", TICKETS_PASSES
+"What forms of payment do you accept?", TICKETS_PASSES
+"What is your refund policy?", TICKETS_PASSES
+"What passes and coupons do you honor?", TICKETS_PASSES
+"What payment types do you accept for tickets?", TICKETS_PASSES
+"Where do I buy tickets?", TICKETS_PASSES
+"Where do I purchase ticket packages?", TICKETS_PASSES
+"Does your theatre offer a student discount?", TICKETS_PASSES
+"Does your theatre have a military discount?", TICKETS_PASSES
+"What's the age for a child and senior ticket?", TICKETS_PASSES
+"Where do I find ticket prices?", TICKETS_PASSES
+"What are the ticketing options?", TICKETS_PASSES
+"Where can I buy tickets?", TICKETS_PASSES
+"How do I purchase tickets?", TICKETS_PASSES
+"Absolutely", AFFIRMATION
+"definitely", AFFIRMATION
+"exactly", AFFIRMATION
+"Sure", AFFIRMATION
+"Ya", AFFIRMATION
+"Yah", AFFIRMATION
+"yeah", AFFIRMATION
+"yep", AFFIRMATION
+"Yes", AFFIRMATION
+"Si", AFFIRMATION
