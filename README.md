@@ -2,8 +2,6 @@
 
 This application demonstrates how the Conversation Service can be adapted to use Tone Analyzer's tone along with intents and entities in a simple chat interface. The app integrates with an instance of Watson Conversation trained for a retail scenario.
 
-![Demo GIF](readme_images/demo.gif?raw=true)
-
 Demo: http://retail-recommender.mybluemix.net/
 
 For more information on the Conversation Service, see the [detailed documentation](http://www.ibm.com/watson/developercloud/doc/conversation/overview.shtml).
